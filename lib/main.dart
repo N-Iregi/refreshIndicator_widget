@@ -140,7 +140,7 @@ class _ShopHomePageState extends State<ShopHomePage> {
 
         // PROPERTY 2 — backgroundColor
         // The circular background plate behind the spinner.
-        backgroundColor: const Color.fromARGB(255, 183, 191, 228),
+        backgroundColor: const Color.fromARGB(255, 6, 45, 219),
 
         // PROPERTY 3 — displacement
         // How many pixels below the top edge the indicator centres itself.
