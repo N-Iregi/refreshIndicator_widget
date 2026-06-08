@@ -21,7 +21,7 @@ class ShopApp extends StatelessWidget {
   }
 }
 
-// ─── Data model ────────────────────────────────────────────────────────────────
+// Data model to define products
 
 class Product {
   final String name;
@@ -75,12 +75,12 @@ class ShopHomePage extends StatefulWidget {
 }
 
 class _ShopHomePageState extends State<ShopHomePage> {
-  // ── State ──
+  // State
   List<Product> _products = _inventoryBatches[0];
   int _batchIndex = 0;
   String _lastRefreshed = 'Just now';
 
-  // ── Helpers ──
+  // Helpers
 
   Future<void> _refresh() async {
 
@@ -97,7 +97,7 @@ class _ShopHomePageState extends State<ShopHomePage> {
     });
   }
 
-  // ── Build ──
+  // Build
 
   @override
   Widget build(BuildContext context) {
