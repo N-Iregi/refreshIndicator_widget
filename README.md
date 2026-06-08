@@ -21,6 +21,7 @@ One important property of the RefreshIndicator is `onRefresh` → RefreshCallbac
 When the child's Scrollable descendant overscrolls, an animated circular progress indicator is faded into view. When the scroll ends, if the indicator has been dragged far enough for it to become completely opaque, the `onRefresh` callback is called. The callback is expected to update the scrollable's contents and then complete the Future it returns. The refresh indicator disappears after the callback's Future has completed.
 
 3 properties of this widget are:
+
 **1. color → Color?**
 - The progress indicator's foreground color. The current theme's ColorScheme.primary by default. Controls the spinning arc inside the indicator circle.
   
